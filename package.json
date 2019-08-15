@@ -4,15 +4,15 @@
   "description": "tdd",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^24.8.0",
-    "babel-preset-env": "^1.7.0",
     "jest": "^24.8.0",
+    "@babel/preset-env": "^7.5.5",
     "regenerator-runtime": "^0.13.3"
   }
 }
